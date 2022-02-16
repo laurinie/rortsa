@@ -9,24 +9,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        html {
+            font-size: 16px;
+        }
+
         body {
             font-family: 'Comic Neue', cursive;
             text-align: center;
+            background-image: url('./giphy.gif');
+            background-size: cover;
+            height: 100%;
+            min-height: 100vh;
+            color: white;
         }
-        ul{
+
+        ul {
             list-style: none;
-            font-style: italic;
-            font-size: 1em;
         }
-        h2{
-            font-size: 50px;
+
+        li {
+            font-size: 2em;
+            text-shadow: white 1em;
         }
-        img{
+
+        h1, h2 {
+            font-size: 3em;
+        }
+
+        img {
             width: 100%;
         }
 
         .rainbow {
-            font-size: 72px;
+            display: block;
             background: -webkit-linear-gradient(90deg,
                     rgba(255, 0, 0, 1) 0%,
                     rgba(255, 154, 0, 1) 10%,
@@ -49,10 +64,10 @@
 <body>
 
     <h1 class="rainbow">Rori Rortsa Rontti</h1>
-    <img src="./cat-jam-cat.gif">
+    <img src="./cat_jam.gif">
     <h2>Hyvää nimiäistä</h2>
     <p>Toivoo</p>
-    <ul class="rainbow">
+    <ul>
         <li>Petra</li>
         <li>Sakke</li>
         <li>Miika</li>
